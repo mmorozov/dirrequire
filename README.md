@@ -1,3 +1,5 @@
+[![devDependency Status](https://david-dm.org/mmorozov/dirrequire/dev-status.png)](https://david-dm.org/mmorozov/dirrequire#info=devDependencies)
+
 _dirrequire_ library for async require files in directory [node.js](http://nodejs.org).
 
 ## Installation
