@@ -62,7 +62,7 @@ dirrequire(__dirname + "/routes", ['js'], function(err, routes) {
 $ npm test
 ```
 
-License
+## License
 
 The MIT License, See the included license.md file.
 
