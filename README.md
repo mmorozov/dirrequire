@@ -17,7 +17,7 @@ include – array of file extensions for require
 
 ```
 
-## Example
+## Examples
 ```
 routes
     auth.js
@@ -34,6 +34,33 @@ var dirrequire = require('dirrequire');
 dirrequire(__dirname + "/routes", function(err, routes) {
     console.log(routes);
 });
+
+// {
+//   '404': [Function],
+//   auth: [Function],
+//   config: {},
+//   main: [Function]
+// }
+```
+
+```javascript
+var dirrequire = require('dirrequire');
+
+dirrequire(__dirname + "/routes", ['js'], function(err, routes) {
+    console.log(routes);
+});
+
+// {
+//   '404': [Function],
+//   auth: [Function],
+//   main: [Function]
+// }
+```
+
+## Running tests
+
+```
+$ npm test
 
 ```
 
