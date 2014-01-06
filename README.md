@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/mmorozov/dirrequire.png?branch=master)](https://travis-ci.org/mmorozov/dirrequire)
 [![devDependency Status](https://david-dm.org/mmorozov/dirrequire/dev-status.png)](https://david-dm.org/mmorozov/dirrequire#info=devDependencies)
+[![Code Climate](https://codeclimate.com/repos/52ca9d60e30ba067540011a3/badges/6c25cc19332b8424f7d8/gpa.png)](https://codeclimate.com/repos/52ca9d60e30ba067540011a3/feed)
 
 [![NPM](https://nodei.co/npm/dirrequire.png?stars=true)](https://nodei.co/npm/dirrequire/)
 
@@ -10,12 +11,10 @@ _dirrequire_ library for async require files in directory
     $ npm install dirrequire
 
 ## Api
-```
+
 ### dirrequire(dirname, [include], callback)
 
 include – array of file extensions for require
-
-```
 
 ## Examples
 ```
