@@ -1,6 +1,9 @@
+[![Build Status](https://travis-ci.org/mmorozov/dirrequire.png?branch=master)](https://travis-ci.org/mmorozov/dirrequire)
 [![devDependency Status](https://david-dm.org/mmorozov/dirrequire/dev-status.png)](https://david-dm.org/mmorozov/dirrequire#info=devDependencies)
 
-_dirrequire_ library for async require files in directory [node.js](http://nodejs.org).
+[![NPM](https://nodei.co/npm/dirrequire.png?stars=true)](https://nodei.co/npm/dirrequire/)
+
+_dirrequire_ library for async require files in directory
 
 ## Installation
 
@@ -33,3 +36,9 @@ dirrequire(__dirname + "/routes", function(err, routes) {
 });
 
 ```
+
+License
+
+The MIT License, See the included license.md file.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmorozov/dirrequire/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
