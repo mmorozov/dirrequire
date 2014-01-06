@@ -3,14 +3,14 @@
   "author": "Michail Morozov <mihmoz@gmail.com>",
   "version": "0.0.1",
   "description": "Library for async require files in directory",
-  "homepage": "",
+  "homepage": "https://github.com/mmorozov/dirrequire",
   "keywords": ["fs", "require", "directory"],
   "engines": {
     "node": ">=0.10.0 <0.11.0"
   },
   "repository": {
       "type": "git",
-      "url": ""
+      "url": "https://github.com/mmorozov/dirrequire.git"
   },
   "main": "./lib/main",
   "devDependencies": {
