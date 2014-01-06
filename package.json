@@ -1,0 +1,24 @@
+{
+  "name": "dirrequire",
+  "author": "Michail Morozov <mihmoz@gmail.com>",
+  "version": "0.0.1",
+  "description": "Library for async require files in directory",
+  "homepage": "",
+  "keywords": ["fs", "require", "directory"],
+  "engines": {
+    "node": ">=0.10.0 <0.11.0"
+  },
+  "repository": {
+      "type": "git",
+      "url": ""
+  },
+  "main": "./lib/main",
+  "devDependencies": {
+    "mocha": "1.16.x",
+    "should": "2.11.x"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test"
+  },
+  "license": "MIT"
+}
