@@ -11,7 +11,7 @@ _dirrequire_ library for async require files in directory
 
 ## Api
 ```
-dirrequire(dirname, [include], callback)
+### dirrequire(dirname, [include], callback)
 
 include – array of file extensions for require
 
@@ -61,7 +61,6 @@ dirrequire(__dirname + "/routes", ['js'], function(err, routes) {
 
 ```
 $ npm test
-
 ```
 
 License
