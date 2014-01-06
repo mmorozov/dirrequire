@@ -1,7 +1,3 @@
-dirrequire
-
-=====
-
 _dirrequire_ library for async require files in directory [node.js](http://nodejs.org).
 
 ## Installation
@@ -9,7 +5,7 @@ _dirrequire_ library for async require files in directory [node.js](http://nodej
     $ npm install dirrequire
 
 ## Api
-```javascript
+```
 dirrequire(dirname, [include], callback)
 
 include – array of file extensions for require
@@ -30,7 +26,7 @@ routes
 
 var dirrequire = require('dirrequire');
 
-dirrequire(__dirname + "/routes, function(err, routes) {
+dirrequire(__dirname + "/routes", function(err, routes) {
     console.log(routes);
 });
 
