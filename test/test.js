@@ -1,5 +1,4 @@
 var dirrequire = require('../lib/main');
-var co         = require('co');
 
 describe('Testing first mock', function() {
   var test = {
